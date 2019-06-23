@@ -29,7 +29,9 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
     @Override
     public void onBindViewHolder(@NonNull RecyclerViewAdapter.ViewHolder viewHolder, int i) {
         HomeClass homeClass = list.get(i);
-        viewHolder.textView.setText(homeClass.getName());
+        viewHolder.textBreakfast.setText(homeClass.getTextBreakfast());
+        viewHolder.textLunch.setText(homeClass.getTextLunch());
+        viewHolder.textSupper.setText(homeClass.getTextSupper());
     }
 
     @Override
@@ -39,11 +41,15 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
 
     public class ViewHolder extends RecyclerView.ViewHolder {
 
-        public TextView textView;
+        public TextView textBreakfast;
+        public TextView textLunch;
+        public TextView textSupper;
 
         public ViewHolder(View itemView) {
             super(itemView);
-            textView = itemView.findViewById(R.id.text);
+            textBreakfast = itemView.findViewById(R.id.textBreakfast);
+            textLunch = itemView.findViewById(R.id.textLunch);
+            textSupper = itemView.findViewById(R.id.textSupper);
         }
     }
 }

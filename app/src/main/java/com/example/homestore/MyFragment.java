@@ -8,7 +8,6 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 
 import java.util.ArrayList;
 
@@ -57,13 +56,21 @@ public class MyFragment extends Fragment {
 
     public ArrayList<HomeClass> getText() {
         ArrayList<HomeClass> list = new ArrayList<>();
-        list.add(new HomeClass("abs"));
-        list.add(new HomeClass("abs"));
-        list.add(new HomeClass("abs"));
-        list.add(new HomeClass("abs"));
-        list.add(new HomeClass("abs"));
-        list.add(new HomeClass("abs"));
-        list.add(new HomeClass("abs"));
+        list.add(new HomeClass(getString(R.string.breakfast1), getString(R.string.lunch1), getString(R.string.supper1)));
+        list.add(new HomeClass(getString(R.string.breakfast2), getString(R.string.lunch2), getString(R.string.supper2)));
+        list.add(new HomeClass(getString(R.string.breakfast3), getString(R.string.lunch3), getString(R.string.supper3)));
+        list.add(new HomeClass(getString(R.string.breakfast4), getString(R.string.lunch4), getString(R.string.supper4)));
+        list.add(new HomeClass(getString(R.string.breakfast5), getString(R.string.lunch5), getString(R.string.supper5)));
+        list.add(new HomeClass(getString(R.string.breakfast6), getString(R.string.lunch6), getString(R.string.supper6)));
+        list.add(new HomeClass(getString(R.string.breakfast7), getString(R.string.lunch7), getString(R.string.supper7)));
+        list.add(new HomeClass(getString(R.string.breakfast8), getString(R.string.lunch8), getString(R.string.supper8)));
+        list.add(new HomeClass(getString(R.string.breakfast9), getString(R.string.lunch9), getString(R.string.supper9)));
+        list.add(new HomeClass(getString(R.string.breakfast10), getString(R.string.lunch10), getString(R.string.supper10)));
+        list.add(new HomeClass(getString(R.string.breakfast11), getString(R.string.lunch11), getString(R.string.supper11)));
+        list.add(new HomeClass(getString(R.string.breakfast12), getString(R.string.lunch12), getString(R.string.supper12)));
+        list.add(new HomeClass(getString(R.string.breakfast13), getString(R.string.lunch13), getString(R.string.supper13)));
+        list.add(new HomeClass(getString(R.string.breakfast14), getString(R.string.lunch14), getString(R.string.supper14)));
+
         return list;
     }
 }

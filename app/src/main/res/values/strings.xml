@@ -13,4 +13,52 @@
     <string name="menu_tools">Tools</string>
     <string name="menu_share">Share</string>
     <string name="menu_send">Send</string>
+    <string name="breakfast">Breakfast:</string>
+    <string name="lunch">Lunch:</string>
+    <string name="supper">Supper:</string>
+
+    <string name="breakfast1">Черный кофе без сахара</string>
+    <string name="breakfast2">Черный кофе без сахара и сухарик (ломтик ржаного хлеба, подсушенном на тостере)</string>
+    <string name="breakfast3">Черный кофе без сахара</string>
+    <string name="breakfast4">Черный сырая тертая морковь, приправленная соком лимона</string>
+    <string name="breakfast5">1 сырая тертая морковь, приправленная соком лимона</string>
+    <string name="breakfast6">Черный кофе без сахара</string>
+    <string name="breakfast7">Зеленый чай без сахара</string>
+    <string name="breakfast8">Зеленый чай без сахара</string>
+    <string name="breakfast9">Черный кофе без сахара</string>
+    <string name="breakfast10">1 сырая тертая морковь, приправленная соком лимона</string>
+    <string name="breakfast11">Кофе без сахара и кусочек ржаного хлеба</string>
+    <string name="breakfast12">Кофе без сахара и кусочек ржаного хлеба</string>
+    <string name="breakfast13">Черный кофе без сахара</string>
+    <string name="breakfast14">Черный кофе без сахара</string>
+
+    <string name="lunch1">2 сваренных вкрутую яйца, салат из свежей капусты с растительным маслом, стакан томатного сока или 1 свежий помидор</string>
+    <string name="lunch2">Вареная или приготовленая на пару рыба (200 г), салат из свежей капусты с растительным маслом</string>
+    <string name="lunch3">Кабачки или баклажаны, жаренные на растительном масле в неограниченном количестве</string>
+    <string name="lunch4">Вареная или приготовленая на пару рыба (200 г), стакан томатного сока</string>
+    <string name="lunch5">Вареная рыба (500 г) и стакан томатного сока</string>
+    <string name="lunch6">Вареная курица (500г) и салат из свежей капусты и моркови на растительном масле</string>
+    <string name="lunch7">Вареная говядина (200г) и фрукты</string>
+    <string name="lunch8">Вареная говядина (200г) и фрукты</string>
+    <string name="lunch9">50г сыра, 3 небольших морковки на растительном масле и 1 вареное яйцо</string>
+    <string name="lunch10">Вареная или приготовленая на пару рыба (200г) и стакан томатного сока</string>
+    <string name="lunch11">Кабачкиили баклажаны, жаренные на растительном масле (в любом количестве)</string>
+    <string name="lunch12">Вареная или приготовленая на пару рыба (200г) со свежей капустой на растительном масле</string>
+    <string name="lunch13">2 вареных яйца, вареная капуста на растительном масле и стакан томатного сока</string>
+    <string name="lunch14">Отварная или приготовленая на пару рыба (200 г), салат из свежей капусты с оливковым маслом</string>
+
+    <string name="supper1">Вареная или приготовленая на пару рыба (200 г), салат из свежей капусты с растительным маслом.</string>
+    <string name="supper2">Вареная говядина (200 г) и стакан кефира.</string>
+    <string name="supper3">Вареная говядина (200 г), сырая капуста на растительном масле, 2 вареных яйца.</string>
+    <string name="supper4">Любые фрукты (200 г).</string>
+    <string name="supper5">Любые фрукты (200 г).</string>
+    <string name="supper6">2 вареных яйца и небольшая свежая морковь.</string>
+    <string name="supper7">Любой вариант ужина из рациона предыдущих дней (кроме третьего)</string>
+    <string name="supper8">Любой вариант ужина из рациона предыдущих дней (кроме третьего)</string>
+    <string name="supper9">Фрукты (200 г).</string>
+    <string name="supper10">Фрукты (200 г).</string>
+    <string name="supper11">Вареная говядина (200г) и стакан кефира.</string>
+    <string name="supper12">Фрукты (200г).</string>
+    <string name="supper13">Вареная или приготовленая на пару рыба (200г).</string>
+    <string name="supper14">Вареная говядина (200г) и стакан кефира.</string>
 </resources>

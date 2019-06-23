@@ -1,43 +1,157 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="150dp">
+    android:layout_height="230dp"
+    android:orientation="horizontal">
 
     <ImageView
         android:id="@+id/itemImage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/day1" />
+
+    <LinearLayout
+        android:id="@+id/texts"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
-        android:foregroundGravity="fill"
-        android:scaleType="centerCrop"
-        android:src="@drawable/ic_launcher_background"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/text"
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/breakfast"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textBreakfast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="кусочек ржаного хлеба и кофе без сахара." />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lunch"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textLunch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2 вареных яйца, вареная капуста с растительным маслом и стакан томатного сока." />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/supper"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textSupper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="100г вареной говядины и стакан кефира." />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+    <!--<ImageView
+        android:id="@+id/itemImage"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_margin="8dp"
-        android:text="TitleTitleTitleTitleTitle"
-        app:layout_constraintBottom_toTopOf="@id/text2"
-        app:layout_constraintLeft_toRightOf="@id/itemImage"
-        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="16dp"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/untitledd"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/linearBreakfast"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <LinearLayout
+        android:id="@+id/linearBreakfast"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@id/linearLunch"
+        app:layout_constraintLeft_toRightOf="@id/itemImage"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
-    <TextView
-        android:id="@+id/text2"
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Breakfast: "
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textBreakfast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextTextT TextTextT TextTextT TextTextT TextTextT " />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLunch"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
-        android:text="TextTextT TextTextT TextTextT TextTextT TextTextT "
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@id/linearSupper"
+        app:layout_constraintLeft_toRightOf="@id/itemImage"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/linearBreakfast">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lunch:       "
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textLunch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Обед: 2 вареных яйца, вареная капуста с растительным маслом и стакан томатного сока." />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearSupper"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toRightOf="@id/itemImage"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/text" />
+        app:layout_constraintTop_toBottomOf="@id/linearLunch">
 
-</android.support.constraint.ConstraintLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Supper:     "
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textSupper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextTextT TextTextT TextTextT TextTextT TextTextT " />
+    </LinearLayout>
+-->
