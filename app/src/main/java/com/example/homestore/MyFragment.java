@@ -3,6 +3,7 @@ package com.example.homestore;
 import android.content.res.Configuration;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -43,6 +44,7 @@ public class MyFragment extends Fragment {
                 false);
 
         recyclerView.setLayoutManager(manager);
+        recyclerView.addItemDecoration(new DividerItemDecoration(recyclerView.getContext(), DividerItemDecoration.VERTICAL));
 
         RecyclerViewAdapter adapter = new RecyclerViewAdapter(getText());
         recyclerView.setAdapter(adapter);
